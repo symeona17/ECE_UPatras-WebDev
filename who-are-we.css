@@ -1,0 +1,260 @@
+.lorem-ipsum-dolor,
+.who-are-we7 {
+  position: absolute;
+  display: flex;
+  align-items: center;
+}
+.who-are-we7 {
+  top: 326px;
+  left: 43px;
+  font-size: var(--font-size-41xl);
+  color: var(--color-orange);
+  justify-content: center;
+  width: 422px;
+  height: 78px;
+}
+.lorem-ipsum-dolor {
+  top: 404px;
+  left: 59px;
+  text-align: left;
+  width: 567px;
+  height: 274px;
+}
+.image-1-icon {
+  position: absolute;
+  top: 319px;
+  left: 730px;
+  border-radius: var(--br-41xl);
+  width: 652px;
+  height: 404px;
+  object-fit: cover;
+}
+.lorem-ipsum-dolor1,
+.lorem-ipsum-dolor2 {
+  position: absolute;
+  top: 857px;
+  left: 827px;
+  text-align: right;
+  display: flex;
+  align-items: center;
+  width: 567px;
+  height: 274px;
+}
+.lorem-ipsum-dolor2 {
+  top: 1370px;
+  left: 58px;
+  text-align: left;
+}
+.image-3-icon1 {
+  position: absolute;
+  top: 1285px;
+  left: 729px;
+  border-radius: var(--br-41xl);
+  width: 652px;
+  height: 404px;
+  object-fit: cover;
+}
+.our-pawed-friends7 {
+  position: absolute;
+  top: 3.94px;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 132px;
+  height: 16px;
+}
+.our-facilities7,
+.our-pawed-friends6 {
+  position: absolute;
+  top: 57px;
+  left: 10px;
+  width: 132px;
+  height: 23.94px;
+}
+.our-facilities7 {
+  top: 3.3px;
+  left: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 104px;
+  height: 15.68px;
+}
+.our-facilities6,
+.who-are-we8 {
+  position: absolute;
+  top: 31px;
+  left: 10px;
+  width: 132px;
+  height: 23.94px;
+}
+.who-are-we8 {
+  top: 5px;
+}
+.abouts-us-dropdown3 {
+  position: absolute;
+  top: 142px;
+  left: 346px;
+  border-radius: var(--br-smi);
+  background-color: var(--color-whitesmoke);
+  border: 2px solid var(--color-yellowgreen);
+  box-sizing: border-box;
+  width: 152px;
+  height: 86px;
+  overflow: hidden;
+  font-size: var(--font-size-sm);
+}
+.admin-panel3,
+.cookies3,
+.copyright-20233,
+.privacy-policy3,
+.terms-of-use3 {
+  position: absolute;
+  top: 27px;
+  left: 436px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 567px;
+  height: 63px;
+}
+.admin-panel3,
+.cookies3,
+.privacy-policy3,
+.terms-of-use3 {
+  top: 97px;
+  left: 375px;
+  text-decoration: underline;
+  width: 162px;
+  height: 44px;
+}
+.admin-panel3,
+.cookies3,
+.privacy-policy3 {
+  left: 554px;
+  width: 170px;
+}
+.admin-panel3,
+.cookies3 {
+  left: 741px;
+  width: 137px;
+}
+.admin-panel3 {
+  left: 895px;
+  width: 169px;
+  cursor: pointer;
+}
+.footer3 {
+  position: absolute;
+  top: 1865px;
+  left: 0;
+  background-color: var(--color-yellowgreen);
+  width: 1440px;
+  height: 183px;
+  color: var(--color-white);
+}
+.image-2-icon {
+  position: absolute;
+  top: 792px;
+  left: 43px;
+  border-radius: var(--br-41xl);
+  width: 652px;
+  height: 404px;
+  object-fit: cover;
+}
+.frame-child23 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-whitesmoke);
+  border-bottom: 2px solid var(--color-yellowgreen);
+  box-sizing: border-box;
+  width: 1440px;
+  height: 240px;
+}
+.educational-programms3 {
+  left: 581px;
+  width: 146px;
+}
+.about-us3,
+.contact-us5,
+.educational-programms3,
+.support-us3 {
+  position: absolute;
+  top: 109px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 19px;
+}
+.contact-us5 {
+  left: 1027px;
+  width: 131px;
+  cursor: pointer;
+}
+.about-us3,
+.support-us3 {
+  left: 810px;
+  width: 134px;
+}
+.about-us3 {
+  top: 110px;
+  left: 354px;
+  width: 111px;
+}
+.logo-icon3 {
+  position: absolute;
+  top: 9px;
+  left: 43px;
+  width: 221px;
+  height: 221px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.sign-up6 {
+  position: absolute;
+  top: 21px;
+  left: 22px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 131px;
+  height: 19px;
+}
+.book3 {
+  position: absolute;
+  top: 88px;
+  left: 1241px;
+  border-radius: var(--br-smi);
+  background-color: var(--color-yellowgreen);
+  width: 176px;
+  height: 61px;
+  color: var(--color-white);
+}
+.rectangle-parent17,
+.who-are-we6 {
+  background-color: var(--color-whitesmoke);
+}
+.rectangle-parent17 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 1px solid var(--color-yellowgreen);
+  box-sizing: border-box;
+  width: 1440px;
+  height: 240px;
+  color: var(--color-yellowgreen);
+}
+.who-are-we6 {
+  position: relative;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  height: 2048px;
+  overflow-x: auto;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-montserrat);
+}

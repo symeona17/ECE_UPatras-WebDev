@@ -1,0 +1,110 @@
+.admins-panel {
+  position: absolute;
+  top: 342px;
+  left: 268px;
+  font-size: var(--font-size-41xl);
+  color: var(--color-teal);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 905px;
+  height: 156px;
+}
+.frame-child {
+  position: absolute;
+  top: 43.87px;
+  left: 0;
+  border-radius: var(--br-21xl);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 599.55px;
+  height: 127.62px;
+}
+.email {
+  position: absolute;
+  top: 0;
+  left: 5.32px;
+  display: flex;
+  align-items: center;
+  width: 269.86px;
+  height: 43.87px;
+}
+.forgot-password,
+.rectangle-parent {
+  position: absolute;
+  top: 616px;
+  left: 420px;
+  width: 599.55px;
+  height: 171.49px;
+  text-align: left;
+}
+.forgot-password {
+  top: 1338px;
+  left: 584px;
+  display: flex;
+  align-items: center;
+  width: 273px;
+  height: 44px;
+}
+.rectangle-group {
+  position: absolute;
+  top: 891px;
+  left: 420px;
+  width: 599.55px;
+  height: 171.49px;
+  text-align: left;
+}
+.sign-up {
+  position: absolute;
+  top: 37.13px;
+  left: 13.65px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 570.03px;
+  height: 33.6px;
+}
+.learn-more {
+  position: absolute;
+  top: 1166px;
+  left: 420px;
+  border-radius: var(--br-smi);
+  background-color: var(--color-teal);
+  width: 600.75px;
+  height: 107.86px;
+  color: var(--color-white);
+}
+.sign-up1 {
+  position: absolute;
+  top: 27.93px;
+  left: 10.27px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 428.79px;
+  height: 25.27px;
+}
+.learn-more1 {
+  position: absolute;
+  top: 72px;
+  left: 42px;
+  border-radius: var(--br-smi);
+  background-color: var(--color-teal);
+  width: 451.9px;
+  height: 81.14px;
+  color: var(--color-white);
+}
+.sign-in {
+  position: relative;
+  background-color: var(--color-whitesmoke);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  height: 2048px;
+  overflow-x: auto;
+  text-align: center;
+  font-size: var(--font-size-11xl);
+  color: var(--color-black);
+  font-family: var(--font-montserrat);
+}

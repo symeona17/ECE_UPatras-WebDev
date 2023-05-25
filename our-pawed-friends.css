@@ -1,0 +1,269 @@
+.animal-name-1,
+.lorem-ipsum-dolor3 {
+  position: absolute;
+  left: 0;
+  display: flex;
+  align-items: center;
+}
+.animal-name-1 {
+  top: 0;
+  font-weight: 300;
+  width: 582px;
+  height: 78px;
+}
+.lorem-ipsum-dolor3 {
+  top: 85px;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  width: 567px;
+  height: 274px;
+}
+.animal-1,
+.animal-2,
+.animal-3,
+.image-4-icon {
+  position: absolute;
+  top: 480px;
+  left: 58px;
+  width: 1323px;
+  height: 404px;
+}
+.animal-2,
+.animal-3,
+.image-4-icon {
+  top: 1002px;
+}
+.animal-3,
+.image-4-icon {
+  top: 1524px;
+}
+.image-4-icon {
+  top: 0;
+  left: 671px;
+  border-radius: var(--br-41xl);
+  width: 652px;
+  object-fit: cover;
+}
+.animal-4,
+.animal-5 {
+  position: absolute;
+  top: 2046px;
+  left: 67px;
+  width: 1323px;
+  height: 404px;
+}
+.animal-5 {
+  top: 2568px;
+}
+.our-pawed-friends10 {
+  position: absolute;
+  top: 3.94px;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 132px;
+  height: 16px;
+}
+.our-facilities9,
+.our-pawed-friends9 {
+  position: absolute;
+  top: 57px;
+  left: 10px;
+  width: 132px;
+  height: 23.94px;
+}
+.our-facilities9 {
+  top: 3.3px;
+  left: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 104px;
+  height: 15.68px;
+}
+.our-facilities8,
+.who-are-we10 {
+  position: absolute;
+  top: 31px;
+  left: 10px;
+  width: 132px;
+  height: 23.94px;
+}
+.who-are-we10 {
+  top: 5px;
+}
+.abouts-us-dropdown4 {
+  position: absolute;
+  top: 142px;
+  left: 346px;
+  border-radius: var(--br-smi);
+  background-color: var(--color-whitesmoke);
+  border: 2px solid var(--color-yellowgreen);
+  box-sizing: border-box;
+  width: 152px;
+  height: 86px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+}
+.admin-panel4,
+.cookies4,
+.copyright-20234,
+.privacy-policy4,
+.terms-of-use4 {
+  position: absolute;
+  top: 27px;
+  left: 436px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 567px;
+  height: 63px;
+}
+.admin-panel4,
+.cookies4,
+.privacy-policy4,
+.terms-of-use4 {
+  top: 97px;
+  left: 375px;
+  text-decoration: underline;
+  width: 162px;
+  height: 44px;
+}
+.admin-panel4,
+.cookies4,
+.privacy-policy4 {
+  left: 554px;
+  width: 170px;
+}
+.admin-panel4,
+.cookies4 {
+  left: 741px;
+  width: 137px;
+}
+.admin-panel4 {
+  left: 895px;
+  width: 169px;
+  cursor: pointer;
+}
+.footer4,
+.our-pawed-friends11 {
+  position: absolute;
+  text-align: center;
+}
+.footer4 {
+  top: 3090px;
+  left: 0;
+  background-color: var(--color-yellowgreen);
+  width: 1440px;
+  height: 183px;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+}
+.our-pawed-friends11 {
+  top: 321px;
+  left: 66px;
+  font-size: var(--font-size-41xl);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 596px;
+  height: 78px;
+}
+.frame-child24 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-whitesmoke);
+  border-bottom: 2px solid var(--color-yellowgreen);
+  box-sizing: border-box;
+  width: 1440px;
+  height: 240px;
+}
+.educational-programms4 {
+  left: 581px;
+  width: 146px;
+}
+.about-us4,
+.contact-us6,
+.educational-programms4,
+.support-us4 {
+  position: absolute;
+  top: 109px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 19px;
+}
+.contact-us6 {
+  left: 1027px;
+  width: 131px;
+  cursor: pointer;
+}
+.about-us4,
+.support-us4 {
+  left: 810px;
+  width: 134px;
+}
+.about-us4 {
+  top: 110px;
+  left: 354px;
+  width: 111px;
+}
+.logo-icon4 {
+  position: absolute;
+  top: 9px;
+  left: 43px;
+  width: 221px;
+  height: 221px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.sign-up7 {
+  position: absolute;
+  top: 21px;
+  left: 22px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 131px;
+  height: 19px;
+}
+.book4 {
+  position: absolute;
+  top: 88px;
+  left: 1241px;
+  border-radius: var(--br-smi);
+  background-color: var(--color-yellowgreen);
+  width: 176px;
+  height: 61px;
+  color: var(--color-white);
+}
+.rectangle-parent18 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-whitesmoke);
+  border: 1px solid var(--color-yellowgreen);
+  box-sizing: border-box;
+  width: 1440px;
+  height: 240px;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-yellowgreen);
+}
+.our-pawed-friends8 {
+  position: relative;
+  background-color: var(--color-whitesmoke);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  height: 3273px;
+  overflow-x: auto;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--color-orange);
+  font-family: var(--font-montserrat);
+}

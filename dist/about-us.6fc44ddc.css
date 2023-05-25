@@ -1,0 +1,333 @@
+.lorem-ipsum-dolor9, .who-are-we14 {
+  align-items: center;
+  display: flex;
+  position: absolute;
+}
+
+.who-are-we14 {
+  font-size: var(--font-size-41xl);
+  color: var(--color-orange);
+  width: 384px;
+  height: 78px;
+  justify-content: center;
+  top: 300px;
+  left: 26px;
+}
+
+.lorem-ipsum-dolor9 {
+  text-align: left;
+  width: 567px;
+  height: 274px;
+  top: 378px;
+  left: 42px;
+}
+
+.our-facilities13 {
+  font-size: var(--font-size-41xl);
+  color: var(--color-orange);
+  width: 422px;
+  height: 78px;
+  top: 790px;
+  left: 13px;
+}
+
+.our-facilities13, .our-pawed-friends14, .sign-up11 {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: absolute;
+}
+
+.our-pawed-friends14 {
+  font-size: var(--font-size-41xl);
+  color: var(--color-orange);
+  width: 600px;
+  height: 78px;
+  top: 1270px;
+  left: 14px;
+}
+
+.sign-up11 {
+  width: 167px;
+  height: 19px;
+  line-height: 24px;
+  top: 21px;
+  left: 4px;
+}
+
+.learn-more4, .learn-more5 {
+  border-radius: var(--br-smi);
+  background-color: var(--color-orange);
+  width: 176px;
+  height: 61px;
+  color: var(--color-white);
+  position: absolute;
+  top: 652px;
+  left: 457px;
+}
+
+.learn-more5 {
+  top: 1640px;
+  left: 445px;
+}
+
+.lorem-ipsum-dolor11 {
+  text-align: left;
+  width: 567px;
+  height: 274px;
+  align-items: center;
+  display: flex;
+  position: absolute;
+  top: 1366px;
+  left: 30px;
+}
+
+.learn-more6 {
+  border-radius: var(--br-smi);
+  background-color: var(--color-orange);
+  width: 176px;
+  height: 61px;
+  color: var(--color-white);
+  position: absolute;
+  top: 1142px;
+  left: 445px;
+}
+
+.lorem-ipsum-dolor12 {
+  text-align: left;
+  width: 567px;
+  height: 274px;
+  align-items: center;
+  display: flex;
+  position: absolute;
+  top: 868px;
+  left: 30px;
+}
+
+.icon, .image-1-icon3, .zoo-pr-photo-2-1-icon {
+  border-radius: var(--br-41xl);
+  width: 642px;
+  height: 405px;
+  object-fit: cover;
+  position: absolute;
+  top: 293px;
+  left: 706px;
+}
+
+.image-1-icon3, .zoo-pr-photo-2-1-icon {
+  width: 670px;
+  height: 404px;
+  top: 1281px;
+  left: 692px;
+}
+
+.image-1-icon3 {
+  width: 652px;
+  top: 783px;
+  left: 701px;
+}
+
+.our-pawed-friends16 {
+  width: 132px;
+  height: 16px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: absolute;
+  top: 3.94px;
+  left: 0;
+}
+
+.our-pawed-friends15 {
+  width: 132px;
+  height: 23.94px;
+  position: absolute;
+  top: 57px;
+  left: 10px;
+}
+
+.our-facilities15 {
+  width: 104px;
+  height: 15.68px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: absolute;
+  top: 3.3px;
+  left: 14px;
+}
+
+.our-facilities14, .who-are-we15 {
+  width: 132px;
+  height: 23.94px;
+  position: absolute;
+  top: 31px;
+  left: 10px;
+}
+
+.who-are-we15 {
+  top: 5px;
+}
+
+.abouts-us-dropdown6 {
+  border-radius: var(--br-smi);
+  background-color: var(--color-whitesmoke);
+  border: 2px solid var(--color-yellowgreen);
+  box-sizing: border-box;
+  width: 152px;
+  height: 86px;
+  font-size: var(--font-size-sm);
+  position: absolute;
+  top: 142px;
+  left: 346px;
+  overflow: hidden;
+}
+
+.admin-panel6, .cookies6, .copyright-20236, .privacy-policy6, .terms-of-use6 {
+  width: 567px;
+  height: 63px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: absolute;
+  top: 27px;
+  left: 436px;
+}
+
+.admin-panel6, .cookies6, .privacy-policy6, .terms-of-use6 {
+  width: 162px;
+  height: 44px;
+  text-decoration: underline;
+  top: 97px;
+  left: 375px;
+}
+
+.admin-panel6, .cookies6, .privacy-policy6 {
+  width: 170px;
+  left: 554px;
+}
+
+.admin-panel6, .cookies6 {
+  width: 137px;
+  left: 741px;
+}
+
+.admin-panel6 {
+  width: 169px;
+  cursor: pointer;
+  left: 895px;
+}
+
+.footer6, .frame-child31 {
+  width: 1440px;
+  position: absolute;
+  left: 0;
+}
+
+.footer6 {
+  background-color: var(--color-yellowgreen);
+  height: 183px;
+  color: var(--color-white);
+  top: 1865px;
+}
+
+.frame-child31 {
+  background-color: var(--color-whitesmoke);
+  border-bottom: 2px solid var(--color-yellowgreen);
+  box-sizing: border-box;
+  height: 240px;
+  top: 0;
+}
+
+.educational-programms6 {
+  width: 146px;
+  left: 581px;
+}
+
+.about-us7, .contact-us8, .educational-programms6, .support-us6 {
+  height: 19px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: absolute;
+  top: 109px;
+}
+
+.contact-us8 {
+  width: 131px;
+  cursor: pointer;
+  left: 1027px;
+}
+
+.about-us7, .support-us6 {
+  width: 134px;
+  left: 810px;
+}
+
+.about-us7 {
+  width: 111px;
+  top: 110px;
+  left: 354px;
+}
+
+.logo-icon6 {
+  width: 221px;
+  height: 221px;
+  object-fit: cover;
+  cursor: pointer;
+  position: absolute;
+  top: 9px;
+  left: 43px;
+}
+
+.sign-up14 {
+  width: 131px;
+  height: 19px;
+  justify-content: center;
+  align-items: center;
+  line-height: 24px;
+  display: flex;
+  position: absolute;
+  top: 21px;
+  left: 22px;
+}
+
+.book6 {
+  border-radius: var(--br-smi);
+  background-color: var(--color-yellowgreen);
+  width: 176px;
+  height: 61px;
+  color: var(--color-white);
+  position: absolute;
+  top: 88px;
+  left: 1241px;
+}
+
+.about-us6, .rectangle-parent25 {
+  background-color: var(--color-whitesmoke);
+}
+
+.rectangle-parent25 {
+  border: 1px solid var(--color-yellowgreen);
+  box-sizing: border-box;
+  width: 1440px;
+  height: 240px;
+  color: var(--color-yellowgreen);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.about-us6 {
+  width: 100%;
+  height: 2048px;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-montserrat);
+  position: relative;
+  overflow-x: auto;
+  box-shadow: 0 4px 4px #00000040;
+}
+
+/*# sourceMappingURL=about-us.6fc44ddc.css.map */

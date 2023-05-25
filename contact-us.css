@@ -1,0 +1,318 @@
+.our-pawed-friends1 {
+  position: absolute;
+  top: 3.94px;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 132px;
+  height: 16px;
+}
+.our-facilities1,
+.our-pawed-friends {
+  position: absolute;
+  top: 57px;
+  left: 10px;
+  width: 132px;
+  height: 23.94px;
+}
+.our-facilities1 {
+  top: 3.3px;
+  left: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 104px;
+  height: 15.68px;
+}
+.our-facilities,
+.who-are-we {
+  position: absolute;
+  top: 31px;
+  left: 10px;
+  width: 132px;
+  height: 23.94px;
+}
+.who-are-we {
+  top: 5px;
+}
+.abouts-us-dropdown {
+  position: absolute;
+  top: 142px;
+  left: 346px;
+  border-radius: var(--br-smi);
+  background-color: var(--color-whitesmoke);
+  border: 2px solid var(--color-yellowgreen);
+  box-sizing: border-box;
+  width: 152px;
+  height: 86px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-sm);
+}
+.contact-us1,
+.find-us-on {
+  position: absolute;
+  top: 302px;
+  left: 25px;
+  font-size: var(--font-size-41xl);
+  color: var(--color-teal);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 384px;
+  height: 78px;
+}
+.find-us-on {
+  top: 1317px;
+  left: 22px;
+  width: 483px;
+  height: 98px;
+}
+.frame-inner {
+  position: absolute;
+  top: 33px;
+  left: 0;
+  border-radius: var(--br-21xl);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 451px;
+  height: 96px;
+}
+.telephone {
+  position: absolute;
+  top: 0;
+  left: 4px;
+  display: flex;
+  align-items: center;
+  width: 203px;
+  height: 33px;
+}
+.rectangle-container,
+.rectangle-div {
+  position: absolute;
+  top: 898px;
+  left: 47px;
+  width: 451px;
+  height: 129px;
+}
+.rectangle-div {
+  top: 54.49px;
+  left: 0;
+  border-radius: var(--br-21xl);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 848px;
+  height: 158.51px;
+}
+.message {
+  position: absolute;
+  top: 0;
+  left: 7.52px;
+  display: flex;
+  align-items: center;
+  width: 381.69px;
+  height: 54.49px;
+}
+.frame-div {
+  position: absolute;
+  top: 1064px;
+  left: 47px;
+  width: 848px;
+  height: 213px;
+}
+.rectangle-parent1,
+.rectangle-parent2,
+.rectangle-parent3 {
+  position: absolute;
+  top: 732px;
+  left: 47px;
+  width: 451px;
+  height: 129px;
+}
+.rectangle-parent2,
+.rectangle-parent3 {
+  top: 400px;
+}
+.rectangle-parent3 {
+  top: 566px;
+}
+.blank-line {
+  margin: 0;
+}
+.sageika-250-05-container1 {
+  line-break: anywhere;
+  width: 100%;
+}
+.sageika-250-05-container {
+  position: absolute;
+  top: 1483px;
+  left: 47px;
+  display: flex;
+  align-items: center;
+  width: 518px;
+}
+.achaia-animal-park-3-removeb-icon,
+.image-3-icon {
+  position: absolute;
+  top: 563px;
+  left: 636px;
+  border-radius: var(--br-41xl);
+  width: 719px;
+  height: 464px;
+  object-fit: cover;
+}
+.image-3-icon {
+  top: 1366px;
+  left: 633px;
+  width: 725px;
+  height: 390.5px;
+}
+.admin-panel,
+.cookies,
+.copyright-2023,
+.privacy-policy,
+.terms-of-use {
+  position: absolute;
+  top: 27px;
+  left: 436px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 567px;
+  height: 63px;
+}
+.admin-panel,
+.cookies,
+.privacy-policy,
+.terms-of-use {
+  top: 97px;
+  left: 375px;
+  text-decoration: underline;
+  width: 162px;
+  height: 44px;
+}
+.admin-panel,
+.cookies,
+.privacy-policy {
+  left: 554px;
+  width: 170px;
+}
+.admin-panel,
+.cookies {
+  left: 741px;
+  width: 137px;
+}
+.admin-panel {
+  left: 895px;
+  width: 169px;
+  cursor: pointer;
+}
+.footer,
+.frame-child4 {
+  position: absolute;
+  left: 0;
+  width: 1440px;
+}
+.footer {
+  top: 1865px;
+  background-color: var(--color-yellowgreen);
+  height: 183px;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+}
+.frame-child4 {
+  top: 0;
+  background-color: var(--color-whitesmoke);
+  border-bottom: 2px solid var(--color-yellowgreen);
+  box-sizing: border-box;
+  height: 240px;
+}
+.about-us,
+.contact-us2,
+.educational-programms,
+.support-us {
+  position: absolute;
+  top: 109px;
+  left: 581px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 146px;
+  height: 19px;
+}
+.about-us,
+.contact-us2,
+.support-us {
+  left: 1027px;
+  width: 131px;
+}
+.about-us,
+.support-us {
+  left: 810px;
+  width: 134px;
+}
+.about-us {
+  top: 110px;
+  left: 354px;
+  width: 111px;
+}
+.logo-icon {
+  top: 9px;
+  left: 43px;
+  width: 221px;
+  height: 221px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.book,
+.logo-icon,
+.sign-up2 {
+  position: absolute;
+}
+.sign-up2 {
+  top: 21px;
+  left: 22px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 131px;
+  height: 19px;
+}
+.book {
+  top: 88px;
+  left: 1241px;
+  border-radius: var(--br-smi);
+  background-color: var(--color-yellowgreen);
+  width: 176px;
+  height: 61px;
+  color: var(--color-white);
+}
+.rectangle-parent4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(#f4f4f4, #f4f4f4), #f4f4f4;
+  border: 1px solid var(--color-yellowgreen);
+  box-sizing: border-box;
+  width: 1440px;
+  height: 240px;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-yellowgreen);
+}
+.contact-us {
+  position: relative;
+  background-color: var(--color-whitesmoke);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  height: 2048px;
+  overflow-x: auto;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-black);
+  font-family: var(--font-montserrat);
+}

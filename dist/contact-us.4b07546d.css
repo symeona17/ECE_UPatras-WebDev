@@ -1,0 +1,332 @@
+.our-pawed-friends1 {
+  width: 132px;
+  height: 16px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: absolute;
+  top: 3.94px;
+  left: 0;
+}
+
+.our-facilities1, .our-pawed-friends {
+  width: 132px;
+  height: 23.94px;
+  position: absolute;
+  top: 57px;
+  left: 10px;
+}
+
+.our-facilities1 {
+  width: 104px;
+  height: 15.68px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  top: 3.3px;
+  left: 14px;
+}
+
+.our-facilities, .who-are-we {
+  width: 132px;
+  height: 23.94px;
+  position: absolute;
+  top: 31px;
+  left: 10px;
+}
+
+.who-are-we {
+  top: 5px;
+}
+
+.abouts-us-dropdown {
+  border-radius: var(--br-smi);
+  background-color: var(--color-whitesmoke);
+  border: 2px solid var(--color-yellowgreen);
+  box-sizing: border-box;
+  width: 152px;
+  height: 86px;
+  text-align: center;
+  font-size: var(--font-size-sm);
+  position: absolute;
+  top: 142px;
+  left: 346px;
+  overflow: hidden;
+}
+
+.contact-us1, .find-us-on {
+  font-size: var(--font-size-41xl);
+  color: var(--color-teal);
+  text-align: center;
+  width: 384px;
+  height: 78px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: absolute;
+  top: 302px;
+  left: 25px;
+}
+
+.find-us-on {
+  width: 483px;
+  height: 98px;
+  top: 1317px;
+  left: 22px;
+}
+
+.frame-inner {
+  border-radius: var(--br-21xl);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 451px;
+  height: 96px;
+  position: absolute;
+  top: 33px;
+  left: 0;
+}
+
+.telephone {
+  width: 203px;
+  height: 33px;
+  align-items: center;
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 4px;
+}
+
+.rectangle-container, .rectangle-div {
+  width: 451px;
+  height: 129px;
+  position: absolute;
+  top: 898px;
+  left: 47px;
+}
+
+.rectangle-div {
+  border-radius: var(--br-21xl);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 848px;
+  height: 158.51px;
+  top: 54.49px;
+  left: 0;
+}
+
+.message {
+  width: 381.69px;
+  height: 54.49px;
+  align-items: center;
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 7.52px;
+}
+
+.frame-div {
+  width: 848px;
+  height: 213px;
+  position: absolute;
+  top: 1064px;
+  left: 47px;
+}
+
+.rectangle-parent1, .rectangle-parent2, .rectangle-parent3 {
+  width: 451px;
+  height: 129px;
+  position: absolute;
+  top: 732px;
+  left: 47px;
+}
+
+.rectangle-parent2, .rectangle-parent3 {
+  top: 400px;
+}
+
+.rectangle-parent3 {
+  top: 566px;
+}
+
+.blank-line {
+  margin: 0;
+}
+
+.sageika-250-05-container1 {
+  line-break: anywhere;
+  width: 100%;
+}
+
+.sageika-250-05-container {
+  width: 518px;
+  align-items: center;
+  display: flex;
+  position: absolute;
+  top: 1483px;
+  left: 47px;
+}
+
+.achaia-animal-park-3-removeb-icon, .image-3-icon {
+  border-radius: var(--br-41xl);
+  width: 719px;
+  height: 464px;
+  object-fit: cover;
+  position: absolute;
+  top: 563px;
+  left: 636px;
+}
+
+.image-3-icon {
+  width: 725px;
+  height: 390.5px;
+  top: 1366px;
+  left: 633px;
+}
+
+.admin-panel, .cookies, .copyright-2023, .privacy-policy, .terms-of-use {
+  width: 567px;
+  height: 63px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: absolute;
+  top: 27px;
+  left: 436px;
+}
+
+.admin-panel, .cookies, .privacy-policy, .terms-of-use {
+  width: 162px;
+  height: 44px;
+  text-decoration: underline;
+  top: 97px;
+  left: 375px;
+}
+
+.admin-panel, .cookies, .privacy-policy {
+  width: 170px;
+  left: 554px;
+}
+
+.admin-panel, .cookies {
+  width: 137px;
+  left: 741px;
+}
+
+.admin-panel {
+  width: 169px;
+  cursor: pointer;
+  left: 895px;
+}
+
+.footer, .frame-child4 {
+  width: 1440px;
+  position: absolute;
+  left: 0;
+}
+
+.footer {
+  background-color: var(--color-yellowgreen);
+  height: 183px;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  top: 1865px;
+}
+
+.frame-child4 {
+  background-color: var(--color-whitesmoke);
+  border-bottom: 2px solid var(--color-yellowgreen);
+  box-sizing: border-box;
+  height: 240px;
+  top: 0;
+}
+
+.about-us, .contact-us2, .educational-programms, .support-us {
+  width: 146px;
+  height: 19px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: absolute;
+  top: 109px;
+  left: 581px;
+}
+
+.about-us, .contact-us2, .support-us {
+  width: 131px;
+  left: 1027px;
+}
+
+.about-us, .support-us {
+  width: 134px;
+  left: 810px;
+}
+
+.about-us {
+  width: 111px;
+  top: 110px;
+  left: 354px;
+}
+
+.logo-icon {
+  width: 221px;
+  height: 221px;
+  object-fit: cover;
+  cursor: pointer;
+  top: 9px;
+  left: 43px;
+}
+
+.book, .logo-icon, .sign-up2 {
+  position: absolute;
+}
+
+.sign-up2 {
+  width: 131px;
+  height: 19px;
+  justify-content: center;
+  align-items: center;
+  line-height: 24px;
+  display: flex;
+  top: 21px;
+  left: 22px;
+}
+
+.book {
+  border-radius: var(--br-smi);
+  background-color: var(--color-yellowgreen);
+  width: 176px;
+  height: 61px;
+  color: var(--color-white);
+  top: 88px;
+  left: 1241px;
+}
+
+.rectangle-parent4 {
+  border: 1px solid var(--color-yellowgreen);
+  box-sizing: border-box;
+  width: 1440px;
+  height: 240px;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-yellowgreen);
+  background: linear-gradient(#f4f4f4, #f4f4f4), #f4f4f4;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.contact-us {
+  background-color: var(--color-whitesmoke);
+  width: 100%;
+  height: 2048px;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-black);
+  font-family: var(--font-montserrat);
+  position: relative;
+  overflow-x: auto;
+  box-shadow: 0 4px 4px #00000040;
+}
+
+/*# sourceMappingURL=contact-us.4b07546d.css.map */

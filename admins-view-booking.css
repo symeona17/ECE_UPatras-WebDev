@@ -1,0 +1,204 @@
+.our-pawed-friends3 {
+  position: absolute;
+  top: 3.94px;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 132px;
+  height: 16px;
+}
+.our-facilities3,
+.our-pawed-friends2 {
+  position: absolute;
+  top: 57px;
+  left: 10px;
+  width: 132px;
+  height: 23.94px;
+}
+.our-facilities3 {
+  top: 3.3px;
+  left: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 104px;
+  height: 15.68px;
+}
+.our-facilities2,
+.who-are-we2 {
+  position: absolute;
+  top: 31px;
+  left: 10px;
+  width: 132px;
+  height: 23.94px;
+}
+.who-are-we2 {
+  top: 5px;
+}
+.abouts-us-dropdown1 {
+  position: absolute;
+  top: 142px;
+  left: 346px;
+  border-radius: var(--br-smi);
+  background-color: var(--color-whitesmoke);
+  border: 2px solid var(--color-yellowgreen);
+  box-sizing: border-box;
+  width: 152px;
+  height: 86px;
+  overflow: hidden;
+  font-size: var(--font-size-sm);
+}
+.admin-panel1,
+.cookies1,
+.copyright-20231,
+.privacy-policy1,
+.terms-of-use1 {
+  position: absolute;
+  top: 27px;
+  left: 436px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 567px;
+  height: 63px;
+}
+.admin-panel1,
+.cookies1,
+.privacy-policy1,
+.terms-of-use1 {
+  top: 97px;
+  left: 375px;
+  text-decoration: underline;
+  width: 162px;
+  height: 44px;
+}
+.admin-panel1,
+.cookies1,
+.privacy-policy1 {
+  left: 554px;
+  width: 170px;
+}
+.admin-panel1,
+.cookies1 {
+  left: 741px;
+  width: 137px;
+}
+.admin-panel1 {
+  left: 895px;
+  width: 169px;
+  cursor: pointer;
+}
+.footer1 {
+  position: absolute;
+  top: 1865px;
+  left: 0;
+  background-color: var(--color-yellowgreen);
+  width: 1440px;
+  height: 183px;
+  color: var(--color-white);
+}
+.admins-panel1 {
+  position: absolute;
+  top: 306px;
+  left: 40px;
+  font-size: var(--font-size-41xl);
+  color: var(--color-orange);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 497px;
+  height: 156px;
+}
+.frame-child5 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-whitesmoke);
+  border-bottom: 2px solid var(--color-yellowgreen);
+  box-sizing: border-box;
+  width: 1440px;
+  height: 240px;
+}
+.about-us1,
+.contact-us3,
+.educational-programms1,
+.support-us1 {
+  position: absolute;
+  top: 109px;
+  left: 581px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 146px;
+  height: 19px;
+}
+.about-us1,
+.contact-us3,
+.support-us1 {
+  left: 1027px;
+  width: 131px;
+}
+.about-us1,
+.support-us1 {
+  left: 810px;
+  width: 134px;
+}
+.about-us1 {
+  top: 110px;
+  left: 354px;
+  width: 111px;
+}
+.logo-icon1 {
+  position: absolute;
+  top: 9px;
+  left: 43px;
+  width: 221px;
+  height: 221px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.sign-up3 {
+  position: absolute;
+  top: 21px;
+  left: 22px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 131px;
+  height: 19px;
+}
+.book1 {
+  position: absolute;
+  top: 88px;
+  left: 1241px;
+  border-radius: var(--br-smi);
+  background-color: var(--color-yellowgreen);
+  width: 176px;
+  height: 61px;
+  color: var(--color-white);
+}
+.rectangle-parent5 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-whitesmoke);
+  border: 1px solid var(--color-yellowgreen);
+  box-sizing: border-box;
+  width: 1440px;
+  height: 240px;
+  color: var(--color-yellowgreen);
+}
+.admins-view-booking {
+  position: relative;
+  background-color: var(--color-whitesmoke);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  height: 2048px;
+  overflow-x: auto;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-montserrat);
+}
