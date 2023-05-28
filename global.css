@@ -8,12 +8,12 @@ body {
   --font-montserrat: Montserrat;
 
   /* font sizes */
-  --font-size-11xl: 30px;
-  --font-size-41xl: 60px;
-  --font-size-5xl: 24px;
-  --font-size-sm: 14px;
-  --font-size-21xl: 40px;
-  --font-size-29xl: 48px;
+  --font-size-2xl-3: 21.3px;
+  --font-size-23xl-7: 42.7px;
+  --font-size-mid-1: 17.1px;
+  --font-size-3xs: 10px;
+  --font-size-9xl-4: 28.4px;
+  --font-size-15xl-1: 34.1px;
 
   /* Colors */
   --color-whitesmoke: #f4f4f4;
@@ -24,8 +24,8 @@ body {
   --color-orange: #f4ab18;
 
   /* border radiuses */
-  --br-smi: 13px;
-  --br-21xl: 40px;
-  --br-41xl: 60px;
-  --br-3xs: 10px;
+  --br-3xs-2: 9.2px;
+  --br-9xl-4: 28.4px;
+  --br-23xl-7: 42.7px;
+  --br-5xs-1: 7.1px;
 }
