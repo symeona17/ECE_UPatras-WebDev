@@ -10,7 +10,7 @@ app.use(express.json());
 const db = new sqlite3.Database('database.db');
 
 // Create a table if it doesn't exist
-db.run(`CREATE TABLE IF NOT EXISTS contacts (
+db.run(`CREATE TABLE IF NOT EXISTS Contact_Us (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   name TEXT,
   surname TEXT,
