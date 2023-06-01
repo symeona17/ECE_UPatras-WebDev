@@ -26,6 +26,7 @@ header {
   background-color: var(--color-teal);
   z-index: 1;
   overflow-x: auto;
+  overflow-y: hidden;
 }
 
 .logo img {
