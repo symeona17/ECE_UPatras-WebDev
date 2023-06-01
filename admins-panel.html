@@ -27,42 +27,14 @@
     </header>
 
     <main>
-        <h1>Book your spot!</h1>
         <div class="container">
-          <form action="booking_confirmation.html" method="POST">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-            
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            
-            <label for="phone">Phone:</label>
-            <input type="text" id="phone" name="phone" required>
-
-            <label for="venue">Venue:</label>
-            <select id="venue" name="venue">
-              <option value="venue1">Venue 1</option>
-              <option value="venue2">Venue 2</option>
-              <option value="venue3">Venue 3</option>
-            </select>
-            
-            <label for="date">Date of Visit:</label>
-            <input type="date" id="date" name="date" required>
-
-            <label for="time">Time:</label>
-            <input type="time" id="time" name="time">
-            
-            <label for="adults">Number of Adults:</label>
-            <input type="number" id="adults" name="adults" min="1" required>
-            
-            <label for="children">Number of Children:</label>
-            <input type="number" id="children" name="children" min="0" required>
-            
-            <label for="comments">Comments:</label>
-            <textarea id="comments" name="comments"></textarea>
-            
-            <input type="submit" value="Submit Booking">
-        </form>
+            <h1>Admin's Panel</h1>
+            <form id="signin-form">
+                <input type="email" id="email" placeholder="Email" required>
+                <input type="password" id="password" placeholder="Password" required>
+                <button type="submit">Sign In</button>
+                <a href="#" id="forgot-password">Forgot Your Password?</a>
+            </form>
       </div>      
 
     </main>

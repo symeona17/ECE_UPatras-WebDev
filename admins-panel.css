@@ -91,16 +91,66 @@ body {
   }
   
   main {
-    margin-top: 200px;
+    margin-top: 350px;
     align-items: center;
     justify-content: center;
-    z-index: 1; /* Increase z-index */
   }
   
   main h1{
     color: var(--color-teal);
+    margin-bottom: 20px;
+  }
+
+  .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin-top: 20px;
   }
+  
+  form {
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    margin-bottom: 60px;
+    color: black;
+  }
+
+  form input {
+        padding: 10px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        border: 1px solid var(--color-teal);
+        font-size: var(--font-size-2xl);
+        font-family: var(--font-montserrat);
+  }
+
+
+  form input:focus {
+    outline: none;
+    border: 1px solid var(--color-orange);
+  }
+
+button{
+    background-color: var(--color-teal);
+    color: var(--color-white);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: var(--font-size-2xl);
+    font-family: var(--font-montserrat);
+    cursor: pointer;
+}
+
+#forgot-password{
+    color: var(--color-teal);
+    font-size: var(--font-size-xl);
+    font-family: var(--font-montserrat);
+    margin-top: 20px;	
+}
 
 
   footer {
@@ -111,5 +161,6 @@ body {
     bottom: 0;
     left: 0;
     width: 100%;
+    position: fixed;
   }
   

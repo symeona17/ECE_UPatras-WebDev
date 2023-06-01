@@ -94,7 +94,7 @@ main {
   margin-top: 200px;
   align-items: center;
   justify-content: center;
-  z-index: 1; /* Increase z-index */
+  z-index: 1;
 }
 
 main h1{
