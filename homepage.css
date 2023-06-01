@@ -94,7 +94,7 @@ nav ul li a:hover {
 }
 
 main {
-  margin-top: 250px;
+  margin-top: 200px;
   align-items: center;
   justify-content: center;
 }
@@ -102,18 +102,19 @@ main {
 main h1{
   color: var(--color-teal);
   margin-top: 20px;
+  margin-bottom: 50px;
 }
 
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: calc(100vh - 380px);
+  height: calc(100vh - 350px);
 }
 
 #carousel {
   width: 50%;
-  height: 500px;
+  height: 300px;
   overflow: hidden;
   position: relative;
 }
@@ -128,24 +129,17 @@ main h1{
   display: block;
 }
 
-@media (max-width: 768px) {
-  #carousel {
-    width: 100%;
-    height: auto;
-  }
-}
-
 @media (min-width: 769px) and (max-width: 1024px) {
   #carousel {
     width: 70%;
-    height: auto;
+    max-height: none; 
   }
 }
 
 @media (min-width: 1025px) {
   #carousel {
     width: 50%;
-    height: auto;
+    height: auto; 
   }
 }
 
@@ -206,6 +200,7 @@ main h1{
 }
 
 .middlecontainer {
+  margin-top: 30px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -225,7 +220,7 @@ main h1{
 
 .bottomcontainer{
     display: flex;
-    height: calc(100vh - 300px); 
+    height: calc(100vh - 30px); 
 }
 
 footer {
