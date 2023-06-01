@@ -1,204 +1,150 @@
-.our-pawed-friends3 {
-  position: absolute;
-  top: 2.8px;
-  left: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 93.87px;
-  height: 11.38px;
-}
-.our-facilities3,
-.our-pawed-friends2 {
-  position: absolute;
-  top: 40.53px;
-  left: 7.11px;
-  width: 93.87px;
-  height: 17.02px;
-}
-.our-facilities3 {
-  top: 2.35px;
-  left: 9.96px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 73.96px;
-  height: 11.15px;
-}
-.our-facilities2,
-.who-are-we2 {
-  position: absolute;
-  top: 22.04px;
-  left: 7.11px;
-  width: 93.87px;
-  height: 17.02px;
-}
-.who-are-we2 {
-  top: 3.56px;
-}
-.abouts-us-dropdown1 {
-  position: absolute;
-  top: 100.98px;
-  left: 246.04px;
-  border-radius: 9.24px;
+body {
   background-color: var(--color-whitesmoke);
-  border: 1.4px solid var(--color-yellowgreen);
-  box-sizing: border-box;
-  width: 108.09px;
-  height: 61.16px;
-  overflow: hidden;
-  font-size: 9.96px;
-}
-.admin-panel1,
-.cookies1,
-.copyright-20231,
-.privacy-policy1,
-.terms-of-use1 {
-  position: absolute;
-  top: 19.2px;
-  left: 310.04px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 403.2px;
-  height: 44.8px;
-}
-.admin-panel1,
-.cookies1,
-.privacy-policy1,
-.terms-of-use1 {
-  top: 68.98px;
-  left: 266.67px;
-  text-decoration: underline;
-  width: 115.2px;
-  height: 31.29px;
-}
-.admin-panel1,
-.cookies1,
-.privacy-policy1 {
-  left: 393.96px;
-  width: 120.89px;
-}
-.admin-panel1,
-.cookies1 {
-  left: 526.93px;
-  width: 97.42px;
-}
-.admin-panel1 {
-  left: 636.44px;
-  width: 120.18px;
-  cursor: pointer;
-}
-.footer1 {
-  position: absolute;
-  top: 1326.22px;
-  left: 0;
-  background-color: var(--color-yellowgreen);
-  width: 1024px;
-  height: 130.13px;
-  color: var(--color-white);
-}
-.admins-panel1 {
-  position: absolute;
-  top: 217.6px;
-  left: 28.44px;
-  font-size: 42.67px;
-  color: var(--color-orange);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 353.42px;
-  height: 110.93px;
-}
-.frame-child5 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: var(--color-whitesmoke);
-  border-bottom: 1.4px solid var(--color-yellowgreen);
-  box-sizing: border-box;
-  width: 1024px;
-  height: 170.67px;
-}
-.about-us1,
-.contact-us3,
-.educational-programms1,
-.support-us1 {
-  position: absolute;
-  top: 77.51px;
-  left: 413.16px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 103.82px;
-  height: 13.51px;
-}
-.about-us1,
-.contact-us3,
-.support-us1 {
-  left: 730.31px;
-  width: 93.16px;
-}
-.about-us1,
-.support-us1 {
-  left: 576px;
-  width: 95.29px;
-}
-.about-us1 {
-  top: 78.22px;
-  left: 251.73px;
-  width: 78.93px;
-}
-.logo-icon1 {
-  position: absolute;
-  top: 6.4px;
-  left: 30.58px;
-  width: 157.16px;
-  height: 157.16px;
-  object-fit: cover;
-  cursor: pointer;
-}
-.sign-up3 {
-  position: absolute;
-  top: 14.93px;
-  left: 15.64px;
-  line-height: 17.07px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 93.16px;
-  height: 13.51px;
-}
-.book1 {
-  position: absolute;
-  top: 62.58px;
-  left: 882.49px;
-  border-radius: 9.24px;
-  background-color: var(--color-yellowgreen);
-  width: 125.16px;
-  height: 43.38px;
-  color: var(--color-white);
-}
-.rectangle-parent5 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: var(--color-whitesmoke);
-  border: 0.7px solid var(--color-yellowgreen);
-  box-sizing: border-box;
-  width: 1024px;
-  height: 170.67px;
-  color: var(--color-yellowgreen);
-}
-.admins-view-booking {
-  position: relative;
-  background-color: var(--color-whitesmoke);
-  box-shadow: 0 2.844444513320923px 2.84px rgba(0, 0, 0, 0.25);
   width: 100%;
-  height: 1456.36px;
-  overflow-x: auto;
+  height: 100%;
+  overflow-x: hidden;
   text-align: center;
-  font-size: 17.07px;
-  color: var(--color-black);
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
   font-family: var(--font-montserrat);
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  margin-bottom: 50px;
+  border-bottom: var(--color-teal) 2px solid;
+  background-color: var(--color-teal);
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.logo img {
+  width: 180px;
+  height: auto;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin-right: 20px;
+  padding: 0;
+  font-size: 18px;
+}
+
+nav ul li {
+  margin-right: 50px;
+}
+
+nav ul li a {
+  color: var(--color-white);
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav ul li a:hover {
+  color: var(--color-orange);
+}
+
+.book {
+  background-color: var(--color-whitesmoke);
+  color: var(--color-teal);
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 10px 20px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav ul {
+    margin-top: 20px;
+  }
+  
+  nav ul li {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  
+  .logo img {
+    margin-bottom: 20px;
+  }
+  
+  .book {
+    margin-top: 20px;
+  }
+}
+
+main {
+  margin-top: 250px;
+  align-items: center;
+  justify-content: center;
+}
+
+main h1{
+  color: var(--color-teal);
+  margin-bottom: 50px;
+}
+
+main h2 {
+  color: black;
+  margin-bottom: 20px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 90%;
+  margin: 0 auto;
+}
+
+th, td {
+  border: 1px solid var(--color-teal);
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: var(--color-teal);
+  font-weight: bold;
+}
+
+td{
+  color: black;
+}
+
+button{
+  background-color: var(--color-teal);
+  color: var(--color-white);
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+
+footer {
+  background-color: var(--color-teal);
+  color: var(--color-white);
+  padding: 20px;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  position: fixed;
 }

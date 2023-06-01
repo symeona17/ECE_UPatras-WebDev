@@ -11,46 +11,64 @@
     />
   </head>
   <body>
-    <div class="admins-view-booking">
-      <div class="abouts-us-dropdown1">
-        <div class="our-pawed-friends2">
-          <div class="our-pawed-friends3">Our pawed friends</div>
-        </div>
-        <div class="our-facilities2">
-          <div class="our-facilities3">Our Facilities</div>
-        </div>
-        <div class="who-are-we2">
-          <div class="our-facilities3">Who are we</div>
-        </div>
+    <header>
+      <div class="logo">
+        <img src="./public/logo@2x.png" alt="Logo" />
       </div>
-      <div class="footer1">
-        <div class="copyright-20231">
-          Copyright © 2023 Achaia Animal Park. All rights reserved.
-        </div>
-        <div class="terms-of-use1">Terms of Use</div>
-        <div class="privacy-policy1">Privacy Policy</div>
-        <div class="cookies1">Cookies</div>
-        <div class="admin-panel1" id="adminPanelText">Admin Panel</div>
-      </div>
-      <div class="admins-panel1">Admin’s Panel</div>
-      <div class="rectangle-parent5">
-        <div class="frame-child5"></div>
-        <div class="educational-programms1">Educational programms</div>
-        <div class="contact-us3">Contact us</div>
-        <div class="support-us1">Support us</div>
-        <div class="about-us1">About us</div>
-        <img
-          class="logo-icon1"
-          alt=""
-          src="./public/logo@2x.png"
-          id="logoImage"
-        />
+      <nav>
+        <ul>
+          <li><a href="./about-us.html">About us</a></li>
+          <li><a href="./contact-us.html">Contact us</a></li>
+          <li><a href="./support-us.html">Support us</a></li>
+          <li><a href="./educational-programms.html">Educational programs</a></li>
+          <li><a href="./book-your-spot.html" class="book">Book your spot!</a></li>
+        </ul>
+      </nav>
+    </header>
 
-        <div class="book1">
-          <div class="sign-up3">Book your spot!</div>
-        </div>
-      </div>
-    </div>
+    <main>
+      <h1>Admin's Panel</h1>
+      
+      <h2>Booking List</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Date</th>
+            <th>Time</th>
+            <th>Ticket Type</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>John Doe</td>
+            <td>2023-06-02</td>
+            <td>10:00 AM</td>
+            <td>Adult</td>
+            <td>
+              <button>Edit</button>
+              <button>Delete</button>
+            </td>
+          </tr>
+          <tr>
+            <td>Jane Smith</td>
+            <td>2023-06-03</td>
+            <td>2:00 PM</td>
+            <td>Child</td>
+            <td>
+              <button>Edit</button>
+              <button>Delete</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    
+    </main>
+
+    <footer>
+      <p>&copy; 2023 Achaia Animal Park. All rights reserved.</p>
+    </footer>
 
     <script>
       var adminPanelText = document.getElementById("adminPanelText");
