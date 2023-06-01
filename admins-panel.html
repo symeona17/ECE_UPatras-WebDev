@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./admins-panel.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,400&display=swap"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="./public/logo@2x.png" alt="Logo" />
+      </div>
+      <nav>
+        <ul>
+          <li><a href="./about-us.html">About us</a></li>
+          <li><a href="./contact-us.html">Contact us</a></li>
+          <li><a href="./support-us.html">Support us</a></li>
+          <li><a href="./educational-programms.html">Educational programs</a></li>
+          <li><a href="./book-your-spot.html" class="book">Book your spot!</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+        <h1>Book your spot!</h1>
+        <div class="container">
+          <form action="booking_confirmation.html" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="phone">Phone:</label>
+            <input type="text" id="phone" name="phone" required>
+
+            <label for="venue">Venue:</label>
+            <select id="venue" name="venue">
+              <option value="venue1">Venue 1</option>
+              <option value="venue2">Venue 2</option>
+              <option value="venue3">Venue 3</option>
+            </select>
+            
+            <label for="date">Date of Visit:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="time">Time:</label>
+            <input type="time" id="time" name="time">
+            
+            <label for="adults">Number of Adults:</label>
+            <input type="number" id="adults" name="adults" min="1" required>
+            
+            <label for="children">Number of Children:</label>
+            <input type="number" id="children" name="children" min="0" required>
+            
+            <label for="comments">Comments:</label>
+            <textarea id="comments" name="comments"></textarea>
+            
+            <input type="submit" value="Submit Booking">
+        </form>
+      </div>      
+
+    </main>
+
+    <footer>
+      <p>&copy; 2023 Achaia Animal Park. All rights reserved.</p>
+    </footer>
+
+    <script>
+      var adminPanelText = document.getElementById("adminPanelText");
+      if (adminPanelText) {
+        adminPanelText.addEventListener("click", function (e) {
+          window.location.href = "./sign-in.html";
+        });
+      }
+      
+      var logoImage = document.getElementById("logoImage");
+      if (logoImage) {
+        logoImage.addEventListener("click", function (e) {
+          window.location.href = "./homepage.html";
+        });
+      }
+      </script>
+  </body>
+</html>
