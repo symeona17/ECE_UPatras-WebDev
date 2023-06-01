@@ -11,94 +11,121 @@
     />
   </head>
   <body>
-    <div class="homepage">
-      <div class="carousel">
-        <div class="young-caucasian-girl-feeding-g-parent">
-          <img
-            class="young-caucasian-girl-feeding-g-icon"
-            alt=""
-            src="./public/youngcaucasiangirlfeedinggiraffezoo-1@2x.png"
-          />
+    <header>
+      <div class="logo">
+        <img src="./public/logo@2x.png" alt="Logo" />
+      </div>
+      <nav>
+        <ul>
+          <li><a href="./about-us.html">About us</a></li>
+          <li><a href="./contact-us.html">Contact us</a></li>
+          <li><a href="./support-us.html">Support us</a></li>
+          <li><a href="./educational-programms.html">Educational programs</a></li>
+          <li><a href="./book-your-spot.html" class="book">Book your spot!</a></li>
+        </ul>
+      </nav>
+    </header>
 
-          <img
-            class="photo-1503919005314-30d93d07d8-icon"
-            alt=""
-            src="./public/photo150391900531430d93d07d823@2x.png"
-          />
-
-          <img
-            class="zoo-pr-photo-2-icon"
-            alt=""
-            src="./public/219388-zoo-pr-photo-2@2x.png"
-          />
-
-          <img class="icon1" alt="" src="./public/1645223618418@2x.png" />
+    <main>
+      <h1>Welcome to Achaia Animal Park!</h1>
+      <div class="container">
+        <div id="carousel">
+          <img src="./public/youngcaucasiangirlfeedinggiraffezoo-1@2x.png" alt="Image 1" />
+          <img src="./public/photo150391900531430d93d07d823@2x.png" alt="Image 2" />
+          <img src="./public/219388-zoo-pr-photo-2@2x.png" alt="Image 3" />
+          <img src="./public/1645223618418@2x.png" alt="Image 4" />
         </div>
       </div>
-      <div class="footer7">
-        <div class="copyright-20237">
-          Copyright © 2023 Achaia Animal Park. All rights reserved.
+      <div class="middlecontainer">
+        <div class="middlecontainer__left">
+          <h2>Our Mission</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+            aliquam, velit vitae semper ultricies, nunc sapien aliquet nibh, eu
+            aliquam nunc felis vitae nisl. Donec aliquam, velit vitae semper
+            ultricies, nunc sapien aliquet nibh, eu aliquam nunc felis vitae
+            nisl.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+            aliquam, velit vitae semper ultricies, nunc sapien aliquet nibh, eu
+            aliquam nunc felis vitae nisl. Donec aliquam, velit vitae semper
+            ultricies, nunc sapien aliquet nibh, eu aliquam nunc felis vitae
+            nisl.
+          </p>
         </div>
-        <div class="terms-of-use7">Terms of Use</div>
-        <div class="privacy-policy7">Privacy Policy</div>
-        <div class="cookies7">Cookies</div>
-        <div class="admin-panel7" id="adminPanelText">Admin Panel</div>
+        <div class="middlecontainer__right">
+          <h2>Our Vision</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+            aliquam, velit vitae semper ultricies, nunc sapien aliquet nibh, eu
+            aliquam nunc felis vitae nisl. Donec aliquam, velit vitae semper
+            ultricies, nunc sapien aliquet nibh, eu aliquam nunc felis vitae
+            nisl.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+            aliquam, velit vitae semper ultricies, nunc sapien aliquet nibh, eu
+            aliquam nunc felis vitae nisl. Donec aliquam, velit vitae semper
+            ultricies, nunc sapien aliquet nibh, eu aliquam nunc felis vitae
+            nisl.
+          </p>
+        </div>
       </div>
-      <div class="learn-more-parent">
-        <div class="learn-more7">
-          <div class="sign-up15">Learn more...</div>
+      <div class="bottomcontainer">
+        <div class="map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3138.221343123878!2d21.440132276473626!3d38.135045891324495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x135e1789bd597363%3A0xb80809efa7e9945a!2zzpnPgM-Azr_Ous6szrzOt867zr_PgiAtIM6gzqzPgc66zr8gzpHOvc6xz4jPhc-Hzq7PgiAtIM6jz4fOv867zq4gzpnPgM-AzrHPg86vzrHPgg!5e0!3m2!1sen!2sgr!4v1685637130200!5m2!1sen!2sgr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
-        <div class="about-us-parent">
-          <div class="about-us8">About us</div>
-          <div class="lorem-ipsum-dolor13">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis,
-            dui et molestie porta, odio diam tincidunt nunc, vitae tempor felis
-            magna id nunc. Mauris nec ullamcorper elit. Pellentesque ac gravida
-            enim. Cras scelerisque ipsum eu tortor egestas, sed aliquam ante
-            sagittis. In cursus, tortor quis condimentum hendrerit, nunc tellus
-            tempus dui, non congue orci urna eu ipsum.
-          </div>
-          <img class="image-2-icon3" alt="" src="./public/image-2@2x.png" />
-        </div>
+        <section class="contact">
+          <h2>Contact Us</h2>
+          <form action="submit_form.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+            <label for="surname">Surname:</label>
+            <input type="text" id="surname" name="surname" required />
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <input type="submit" value="Send Message" />
+          </form>
+        </section>
       </div>
-      <div class="homepage-child"></div>
-      <div class="rectangle-parent26">
-        <div class="frame-child32"></div>
-        <img class="logo-icon7" alt="" src="./public/logo@2x.png" />
+    </main>
 
-        <div class="educational-programms-parent">
-          <div class="educational-programms7">Educational programms</div>
-          <div class="contact-us9" id="contactUsText">Contact us</div>
-          <div class="support-us7">Support us</div>
-          <div class="about-us9" id="aboutUsText1">About us</div>
-          <div class="book7">
-            <div class="sign-up16">Book your spot!</div>
-          </div>
-        </div>
-      </div>
-    </div>
+    <footer>
+      <p>&copy; 2023 Achaia Animal Park. All rights reserved.</p>
+    </footer>
 
     <script>
-      var adminPanelText = document.getElementById("adminPanelText");
-      if (adminPanelText) {
-        adminPanelText.addEventListener("click", function (e) {
-          window.location.href = "/";
-        });
+      var carousel = document.getElementById('carousel');
+      var images = carousel.getElementsByTagName('img');
+      var currentImageIndex = 0;
+
+      function showImage(index) {
+        for (var i = 0; i < images.length; i++) {
+          images[i].style.display = 'none';
+        }
+        images[index].style.display = 'block';
       }
-      
-      var contactUsText = document.getElementById("contactUsText");
-      if (contactUsText) {
-        contactUsText.addEventListener("click", function (e) {
-          window.location.href = "./contact-us.html";
-        });
+
+      function nextImage() {
+        currentImageIndex++;
+        if (currentImageIndex >= images.length) {
+          currentImageIndex = 0;
+        }
+        showImage(currentImageIndex);
       }
-      
-      var aboutUsText1 = document.getElementById("aboutUsText1");
-      if (aboutUsText1) {
-        aboutUsText1.addEventListener("click", function (e) {
-          window.location.href = "./about-us.html";
-        });
+
+      function previousImage() {
+        currentImageIndex--;
+        if (currentImageIndex < 0) {
+          currentImageIndex = images.length - 1;
+        }
+        showImage(currentImageIndex);
       }
-      </script>
+
+      setInterval(nextImage, 3000);
+    </script>
   </body>
 </html>
