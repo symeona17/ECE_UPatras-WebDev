@@ -24,7 +24,6 @@ header {
   margin-bottom: 50px;
   border-bottom: var(--color-teal) 2px solid;
   background-color: var(--color-teal);
-  z-index: 2; /* Increase z-index */
   overflow-x: auto;
   overflow-y: hidden;
 }
@@ -109,7 +108,6 @@ main h1{
   justify-content: center;
   align-items: center;
   margin-top: 20px;
-  height: 100%;
 }
 
 form {
@@ -118,7 +116,7 @@ form {
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 60px;
   color: black;
 }
 
@@ -155,6 +153,11 @@ input {
   padding: 8px 20px;
 }
 
+select {
+  margin-bottom: 15px;
+  padding: 8px 20px;
+}
+
 footer {
   background-color: var(--color-teal);
   color: var(--color-white);
@@ -163,5 +166,4 @@ footer {
   bottom: 0;
   left: 0;
   width: 100%;
-  position: fixed;
 }
