@@ -24,7 +24,7 @@ header {
   margin-bottom: 50px;
   border-bottom: var(--color-teal) 2px solid;
   background-color: var(--color-teal);
-  z-index: 1;
+  z-index: 2; /* Increase z-index */
   overflow-x: auto;
   overflow-y: hidden;
 }
@@ -92,9 +92,10 @@ nav ul li a:hover {
 }
 
 main {
-  margin-top: 250px;
+  margin-top: 200px;
   align-items: center;
   justify-content: center;
+  z-index: 1; /* Increase z-index */
 }
 
 main h1{
@@ -107,20 +108,24 @@ main h1{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 50px;
+  margin-top: 20px;
+  height: 100%;
 }
 
 form {
-  max-width: 400px;
-  margin: 0 auto;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  margin-bottom: 20px;
+  color: black;
 }
 
 input[type="text"],
 input[type="email"],
 select {
   width: 100%;
-  padding: 10px;
-  margin-bottom: 15px;
   border: 1px solid #ccc;
   color: black; 
   border-radius: 4px;
@@ -128,21 +133,27 @@ select {
 }
 
 input[type="submit"] {
-  background-color: violet;
-  color: black; 
+  background-color: var(--color-teal);
+  color: white; 
   padding: 10px 20px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
   font-size: 16px;
+  font-family: var(--font-montserrat);
+  margin-top: 25px;
+  box-sizing: border-box;
+  z-index: 1;
 }
 
 input[type="submit"]:hover {
-  background-color: black;
+  background-color: var(--color-orange);
 }
 
-
-
+input {
+  margin-bottom: 15px;
+  padding: 8px 20px;
+}
 
 footer {
   background-color: var(--color-teal);
@@ -152,4 +163,5 @@ footer {
   bottom: 0;
   left: 0;
   width: 100%;
+  position: fixed;
 }
