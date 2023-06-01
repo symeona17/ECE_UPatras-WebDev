@@ -115,17 +115,20 @@ form {
   margin: 0 auto;
 }
 
-input[type="text"], input[type="email"], select {
+input[type="text"],
+input[type="email"],
+select {
   width: 100%;
   padding: 10px;
   margin-bottom: 15px;
   border: 1px solid #ccc;
+  color: black; 
   border-radius: 4px;
   box-sizing: border-box;
 }
 
 input[type="submit"] {
-  background-color: #4CAF50;
+  background-color: violet;
   color: black; 
   padding: 10px 20px;
   border: none;
@@ -135,11 +138,8 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  background-color: #45a049;
+  background-color: black;
 }
-
-
-
 
 
 
