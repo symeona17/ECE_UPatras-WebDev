@@ -13,15 +13,15 @@
   <body>
     <header>
       <div class="logo">
-        <img src="./public/logo@2x.png" alt="Logo" />
+        <img src="./public/logo@2x.png" alt="Logo" id="logoImage"/>
       </div>
       <nav>
         <ul>
           <li><a href="./about-us.html">About us</a></li>
-          <li><a href="./contact-us.html">Contact us</a></li>
+          <li><a href="homepage.html#contact">Contact us</a></li>
           <li><a href="./support-us.html">Support us</a></li>
           <li><a href="./educational-programms.html">Educational programs</a></li>
-          <li><a href="./book-your-spot.html" class="book">Book your spot!</a></li>
+          <li><a href="./booking.html" class="book">Book your spot!</a></li>
         </ul>
       </nav>
     </header>
@@ -69,19 +69,23 @@
 
     <footer>
       <p>&copy; 2023 Achaia Animal Park. All rights reserved.</p>
+      <p>
+        <a href="./terms-and-conditions.html">Terms and Conditions</a> | <a href="./privacy-policy.html">Privacy Policy</a> | <a href="./admins-panel.html" id="adminPanelText">Admin's Panel</a>	
+      </p>
     </footer>
 
     <script>
       var adminPanelText = document.getElementById("adminPanelText");
       if (adminPanelText) {
         adminPanelText.addEventListener("click", function (e) {
-          window.location.href = "./sign-in.html";
+          window.location.href = "./admins-panel.html";
         });
       }
       
       var logoImage = document.getElementById("logoImage");
       if (logoImage) {
         logoImage.addEventListener("click", function (e) {
+          e.preventDefault();
           window.location.href = "./homepage.html";
         });
       }

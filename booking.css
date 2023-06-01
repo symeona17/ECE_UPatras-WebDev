@@ -31,6 +31,7 @@ header {
 .logo img {
   width: 180px;
   height: auto;
+  cursor: pointer;
 }
 
 nav ul {
@@ -166,4 +167,9 @@ footer {
   bottom: 0;
   left: 0;
   width: 100%;
+  color: white;
+}
+
+a{
+  color: white;
 }
