@@ -140,6 +140,7 @@ main h1{
 .contact input[type="submit"] {
   background-color: var(--color-teal);
   color: var(--color-white);
+  font-weight: bold;
   border: none;
   padding: 10px 20px;
   border-radius: 5px;
